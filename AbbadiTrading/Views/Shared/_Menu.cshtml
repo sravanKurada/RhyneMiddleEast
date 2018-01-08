@@ -1,0 +1,23 @@
+﻿<div class="container_16">
+    <div class="grid_16 ">
+        <nav class="">
+            <ul class="sf-menu">
+                <li class="@(ViewBag.CurrentPage=="Home"?"current":"")"><a href="@Url.Action("Index","Home")">Home</a></li>
+                <li  class="@(ViewBag.CurrentPage=="AboutUs"?"current":"")"><a href="@Url.Action("AboutUs","Home")">About Us </a></li>
+
+                <li class="@(ViewBag.CurrentPage=="Product"?"current":"")"><a href="#">Products</a>
+                    <ul>
+                        <li ><a href="@Url.Action("Bitumen","Products")">Bitumen</a></li>
+                        <li><a href="@Url.Action("Polymers","Products")">Polymers</a></li>
+                        <li><a href=@Url.Action("Dates","Products")>Dates </a></li>
+                    </ul>
+                      
+                </li>
+		          
+                <li><a href="#">Contact us</a></li>
+           
+            </ul>
+        </nav>
+    </div>
+    <div class="clear"></div>
+</div>

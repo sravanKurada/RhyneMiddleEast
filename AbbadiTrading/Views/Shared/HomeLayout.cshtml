@@ -1,0 +1,145 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GAT Home</title>
+</head>
+<body>
+    <div>
+       
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+     <title>Home</title>
+     <meta charset="utf-8">
+     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+     <link rel="stylesheet" type="text/css" media="screen" href="@Url.Content("~/Content/css/style.css")" />
+     <link rel='stylesheet' id='camera-css'  href="@Url.Content("~/Content/css/camera.css")" type='text/css' media='all' />
+     <script type="text/javascript" src="@Url.Content("~/Content/js/jquery.js")"></script>
+     <script src="@Url.Content("~/Content/js/script.js")"></script>
+     <script type="text/javascript" src="@Url.Content("~/Content/js/superfish.js")"></script>
+     <script type="text/javascript" src="@Url.Content("~/Content/js/jquery.responsivemenu.js")"></script>
+     <script type="text/javascript" src="@Url.Content("~/Content/js/jquery.mobilemenu.js")"></script>
+     <script type="text/javascript" src="@Url.Content("~/Content/js/jquery.easing.1.3.js")"></script>
+     <script src="@Url.Content("~/Content/js/jquery.ui.totop.js")"></script>
+     <script src="@Url.Content("~/Content/js/camera.js")"></script>
+     <!--[if (gt IE 9)|!(IE)]><!-->
+     <script type="text/javascript" src="@Url.Content("~/Content/js/jquery.mobile.customized.min.js")"></script>
+     <!--<![endif]-->
+     <script>
+         $(document).ready(function () {
+             $().UItoTop({ easingType: 'easeOutQuart' });
+             jQuery('#camera_wrap').camera({
+                 loader: false,
+                 pagination: true,
+                 thumbnails: false,
+                 height: '52.52631578947368%',
+                 caption: true,
+                 navigation: false,
+                 fx: 'simpleFade'
+             });
+         });
+
+     </script>
+<!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+<!--[if lt IE 9]>
+	<script src="js/html5.js"></script>
+	<link rel="stylesheet" href="css/ie.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
+<![endif]-->
+</head>
+<body class="page1">
+<!-- Header -->
+<header>
+  <div class="header_top">
+    <div class="container_16">
+      <div class="grid_16">
+	      <h1><a href="#"><img src="@Url.Content("~/Content/images/logo.png")" alt="Motheme Your prosperity is our goal!"></a></h1>
+	      <div class="contacts">
+	      	
+	      	
+	      	<div class="clear"></div>
+            <div class="phone1"><span>Phone:</span> 00971 4 392 77 74</div>
+	      </div>
+      </div>
+    </div>
+  </div>
+  <div class="menu_border">
+  	<div class="menu_bg">
+		@Html.Partial("_Menu")
+   </div>
+   </div>
+   
+</header>
+    <!--Content--> 
+    <div class="content">
+    @RenderBody()
+    </div>
+    <div class="page1_bot">
+		
+		<div class="bot">
+	    	<div>
+	        	<div class="container_16">
+	        		  <div class="grid_4">
+		                 <h4>About Us</h4>
+		                <p>GAT began its activities in exporting Iranian carpet and dried fruits in 2010, aiming for quality, good services and customer satisfaction.</p>
+                        <a href="#">Read More</a>
+		            </div>
+		            <div class="grid_4">
+		                <h4>elsewhere</h4>
+		                <div class="social">
+	                    	
+		                    <div>
+		                    	
+		                        <a href="#"><img src="@Url.Content("~/Content/images/fb_icon.png")" alt=""> Facebook</a>
+		                        <div class="clear"></div>
+		                        <div>
+		                        </div>
+		                    	
+		                        <a href="#"> <img src="@Url.Content("~/Content/images/twitter_icon.png")" alt="">Twitter</a>
+		                        <div class="clear"></div>
+		                    </div>
+		                </div>
+		            </div>
+		          
+                    <div class="grid_4"></div>
+	        		<div class="grid_4">
+	                	<h4>Contacts</h4>
+	                    <div class="phone1"><span>00971 4 392 77 74</span>
+	                    	<a href="mailto:info@abbaditrading.com">info@abbaditrading.com</a>
+	                    </div>
+	                    <address>No.516 , Pinnacle Building , Shaikh Zayed Road<br/>Dubai , U.A.E.</address>
+	                </div>
+	        		<div class="clear"></div>
+	        	</div>
+	        </div>
+	    </div>
+	</div>
+    <!--Footer-->
+<footer>
+  <div class="container_16">
+    <div class="wrapper">
+      <div class="grid_16 copy">  <span>GHANIM ABBADI TRADING  © @DateTime.Now.Year</span> <!--{%FOOTER_LINK} --> 
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer end-->
+</body>
+</html>
+	
+
