@@ -90,7 +90,26 @@ namespace AbbadiTrading.Controllers
             return View();
         }
         #endregion
+        public ActionResult FrozenShrimp()
+        {
+            ViewBag.CurrentPage = "Product";
+            return View();
+        }
+        public ActionResult Pistachio()
+        {
+            ViewBag.CurrentPage = "Product";
+            return View();
+        }
+        public ActionResult Gypsum()
+        {
+            ViewBag.CurrentPage = "Product";
+            return View();
+        }
+        public ActionResult CementAndClinker()
+        {
+            ViewBag.CurrentPage = "Product";
+            return View();
+        }
 
-      
     }
 }

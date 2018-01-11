@@ -20,6 +20,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -130,10 +132,14 @@
     <Content Include="Content\images\btn_bg.png" />
     <Content Include="Content\images\btn_hover1.png" />
     <Content Include="Content\images\camera-loader.gif" />
+    <Content Include="Content\images\CementAndClinker1.jpg" />
+    <Content Include="Content\images\CementAndClinker2.jpg" />
     <Content Include="Content\images\contacts_separator.png" />
     <Content Include="Content\images\favicon.ico" />
     <Content Include="Content\images\fb_icon.png" />
     <Content Include="Content\images\footer_logo.png" />
+    <Content Include="Content\images\FrozenShrimp.jpg" />
+    <Content Include="Content\images\Gypsum.jpg" />
     <Content Include="Content\images\header_bg.png" />
     <Content Include="Content\images\header_top.png" />
     <Content Include="Content\images\logo.png" />
@@ -177,6 +183,7 @@
     <Content Include="Content\images\page5_img2.jpg" />
     <Content Include="Content\images\page5_img3.jpg" />
     <Content Include="Content\images\pagination.png" />
+    <Content Include="Content\images\Pistachio.jpg" />
     <Content Include="Content\images\products\Bitumen\Bitumen\14.jpg" />
     <Content Include="Content\images\products\Bitumen\Bitumen\bitumen in new steel drum.jpg" />
     <Content Include="Content\images\products\Bitumen\Bitumen\gilsonite natural asphalt.jpg" />
@@ -214,6 +221,8 @@
     <Content Include="Content\images\products\Bitumen\Penetration Bitumen\canned_bitumen.JPG" />
     <Content Include="Content\images\products\Bitumen\Penetration Bitumen\penetrationThumbnail.jpg" />
     <Content Include="Content\images\products\Bitumen\Penetration Bitumen\penetration_bitumen_process.jpg" />
+    <Content Include="Content\images\products\CementAndClinker\CementAndClinker1.jpg" />
+    <Content Include="Content\images\products\CementAndClinker\CementAndClinker2.jpg" />
     <Content Include="Content\images\products\Dates\Kabkab.jpg" />
     <Content Include="Content\images\products\Dates\Mazafati.jpg" />
     <Content Include="Content\images\products\Dates\Piarom.jpg" />
@@ -221,7 +230,13 @@
     <Content Include="Content\images\products\Dates\Syrup.jpg" />
     <Content Include="Content\images\products\Dates\Syrup2.jpg" />
     <Content Include="Content\images\products\Dates\Zahedi.jpg" />
+    <Content Include="Content\images\products\FrozenShrimp\FrozenShrimp1.JPG" />
+    <Content Include="Content\images\products\FrozenShrimp\FrozenShrimp2.jpg" />
     <Content Include="Content\images\products\Glisonate.jpg" />
+    <Content Include="Content\images\products\Gypsum\Gypsum1.jpg" />
+    <Content Include="Content\images\products\Gypsum\Gypsum2.jpg" />
+    <Content Include="Content\images\products\Gypsum\Gypsum3.jpg" />
+    <Content Include="Content\images\products\Pistachio\Pistachio.JPG" />
     <Content Include="Content\images\products\Polymer\pe1.jpg" />
     <Content Include="Content\images\products\Polymer\pe2.jpg" />
     <Content Include="Content\images\products\Polymer\pe3.jpg" />
@@ -289,6 +304,10 @@
     <Content Include="Views\Products\CutbackBitumen.cshtml" />
     <Content Include="Views\Products\OxidizedBitumen.cshtml" />
     <Content Include="Views\Products\Gilsonite.cshtml" />
+    <Content Include="Views\Products\CementAndClinker.cshtml" />
+    <Content Include="Views\Products\FrozenShrimp.cshtml" />
+    <Content Include="Views\Products\Gypsum.cshtml" />
+    <Content Include="Views\Products\Pistachio.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
