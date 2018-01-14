@@ -372,10 +372,11 @@ h2 span {
 }
 
 .page1_bot .top {
-	padding-top: 32px;
-	background: url(../images/page1_topofbot.jpg) no-repeat center bottom;	
-	padding-bottom: 6px;
-	border-bottom: 1px solid #d9d9d9;
+    padding-top: 32px;
+    background: url(../images/page1_topofbot.jpg) no-repeat center bottom;
+    padding-bottom: 6px;
+    background-color: #d9d9d9 ;
+    border-bottom: 1px solid #d9d9d9;
 }
 
 .page1_bot .top .btn {
