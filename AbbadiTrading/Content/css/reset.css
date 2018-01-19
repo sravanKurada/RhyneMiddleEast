@@ -1,35 +1,51 @@
 abbr, acronym, address, applet, article, aside, audio, b, blockquote, big, body, center, canvas, caption, cite, code, command, datalist, dd, del, details, dfn, dl, div, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, keygen, label, legend, li, meter, nav, object, ol, output, p, pre, progress, q, s, samp, section, small, span, source, strike, strong, sub, sup, table, tbody, tfoot, thead, th, tr, tdvideo, tt, u, ul, var {
-	background:transparent;
-	border:0 none;
-	font-size:100%;
-	margin:0;
-	padding:0;
-	border:0;
-	outline:0;
+	background: transparent;
+	border: 0 none;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
 }
 ul {
-	list-style:none
+	list-style: none;
 }
 blockquote, q {
-	quotes:none
+	quotes: none;
 }
 table, table td {
-    text-align:center;
-	padding:0;
-	border:none;
-	border-collapse:collapse
+	text-align: center;
+	padding: 0;
+	border: none;
+	border-collapse: collapse;
+}
+.table_gat {
+	width: 64%;
+}
+.table_gat td {
+	width: 145px;
+	height: 31px;
+	margin-bottom: ;
+}
+.table_gat tr {
+	border-bottom: 1pt solid #9B9B9B;
+}
+.table_gat th {
+	height: 35px;
+	font-size: 14px;
+	
 }
 img {
-	vertical-align:top;
+	vertical-align: top;
 }
 embed {
-	vertical-align:top;
+	vertical-align: top;
 }
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {
-	display:block
+	display: block;
 }
 mark, rp, rt, ruby, summary, time {
-	display:inline
+	display: inline;
 }
 input {
 	outline: none;
