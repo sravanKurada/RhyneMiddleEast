@@ -59,6 +59,10 @@ ul.sf-menu>li:first-child {
 	background: none;
 }
 
+ul.sf-menu > li:nth-child(2n+1) {
+        background: none;
+    }
+
 ul.sf-menu>li a {
 	text-decoration:none;
 	font-family: 'Lato', sans-serif;
@@ -82,7 +86,7 @@ ul.sf-menu>li a {
 ul.sf-menu>li>a>.menu-arrow {
 	position: absolute;
 	top: 30px;
-	right: 44px;
+	right: 26px;
 	display: block;
 	width: 0; 
 	height: 0; 
@@ -95,24 +99,44 @@ ul.sf-menu>li.sfHover a>span, ul.sf-menu>li>a:hover>span, ul.sf-menu>li.current>
 border-top-color: #fff;
 }
 
-ul.sf-menu>li>ul>li a>span.menu-arrow {
+ul.sf-menu>li>ul>li a>.menu-arrow {
 	position: absolute;
-	top: 17px;
-	right: -65px;
-	left: 136px;
+    top: -0px;
+    left: 155px;
 	display: block;
-	width: 0; 
+    width: 0; 
 	height: 0; 
 	border-bottom: 4px solid transparent;
 	border-top: 4px solid transparent;
 	border-left: 4px solid #fff;
 }
+    ul.sf-menu > li > ul > li .nonfood > .menu-arrow {
+        position: absolute;
+        top: 17px;
+        display: block;
+        width: 0;
+        height: 0;
+        border-bottom: 4px solid transparent;
+        border-top: 4px solid transparent;
+        border-left: 4px solid #fff;
+    }
 
+    ul.sf-menu > li > ul > li > ul > li .dried > .menu-arrow {
+        position: absolute;
+        top: 10px;
+        left: 180px;
+        display: block;
+        width: 0;
+        height: 0;
+        border-bottom: 4px solid transparent;
+        border-top: 4px solid transparent;
+        border-left: 4px solid #fff;
+    }
 
-ul.sf-menu>li>ul>li a:hover>span.menu-arrow, 
-ul.sf-menu>li>ul>li.sfhover a>span.menu-arrow{
-	border-left-color: #ADADAD;
-}
+    ul.sf-menu > li > ul > li a:hover > span.menu-arrow,
+    ul.sf-menu > li > ul > li.sfhover a > span.menu-arrow {
+        border-left-color: #ADADAD;
+    }
 
 
 ul.sf-menu>li.current>a,  ul.sf-menu>li>a:hover, ul.sf-menu>li.sfHover>a {
@@ -141,11 +165,15 @@ ul.sf-menu>li.current>a,  ul.sf-menu>li>a:hover, ul.sf-menu>li.sfHover>a {
 .sf-menu>li>ul>li:first-child{
 	border: none;
 }
-
+.sf-menu > li > ul > li:nth-child(2n+1) {
+        border: none;
+    }
 .sf-menu>li>ul>li:first-child a {
 	padding-top: 0 !important;
 }
-
+.sf-menu > li > ul > li:nth-child(2n+1) a {
+        padding-top: 0 !important;
+    }
 .sf-menu>li>ul>li>a {
 	color:#fff;
 	font-family: Arial, Helvetica, sans-serif;
@@ -178,6 +206,16 @@ ul.sf-menu>li.current>a,  ul.sf-menu>li>a:hover, ul.sf-menu>li.sfHover>a {
 	padding: 15px 20px 0px 22px;
 	box-shadow: 0px 0px 2px #999;
 }
+    .sf-menu > li > ul > li > ul>li>ul {
+        width: 188px;
+        left: 210px !important;
+        top: 0px !important;
+        text-align: center;
+        background: url(../images/subsub_bg.png) 0 0 repeat-x #838383;
+        padding: 15px 20px 0px 22px;
+        box-shadow: 0px 0px 2px #999;
+    }
+
 
 .sf-menu>li>ul>li>ul>li {
 	display: block;
@@ -187,20 +225,33 @@ ul.sf-menu>li.current>a,  ul.sf-menu>li>a:hover, ul.sf-menu>li.sfHover>a {
 	line-height: 12px;
 	border-top:#bbbbbb 1px solid;
 }
-
-.sf-menu>li>ul>li>ul>li:first-child {
-	border: none;
-}
+    .sf-menu > li > ul > li > ul > li>ul>li {
+        display: block;
+        text-align: center;
+        float: none;
+        position: relative;
+        border-top: #bbbbbb 1px solid;
+    }
+        .sf-menu > li > ul > li > ul > li > ul > li>a {
+            top: 8px;
+        }
+        .sf-menu > li > ul > li > ul > li:first-child {
+            border: none;
+        }
+    .sf-menu > li > ul > li > ul > li>ul>li:first-child {
+        border: none;
+    }
 
 .sf-menu>li>ul>li>ul>li:first-child a {
 	padding-top: 0 !important;	
 }
 
+
 .sf-menu>li>ul>li>ul>li>a {
 	color:#fff;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	line-height: 12px;
+	line-height: 29px;
 	display: block;
 	text-shadow: none;	
 	padding: 0 !important;
@@ -217,7 +268,7 @@ ul.sf-menu>li.current>a,  ul.sf-menu>li>a:hover, ul.sf-menu>li.sfHover>a {
 .sf-menu>li>ul>li>ul>li a:hover, ul.sf-menu>li>ul>ul>li>li.sfHover a {
 	color: #414040;
 }
-
+    
 
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
@@ -235,9 +286,11 @@ ul.sf-menu>li.current>a,  ul.sf-menu>li>a:hover, ul.sf-menu>li.sfHover>a {
 }
 
 	.sf-menu>li:after, .sf-menu>li:first-child:before {
-		display: none;;
+		display: none;
 	}
-	
+    .sf-menu > li:after, .sf-menu > li:nth-child(2n+1):before {
+        display: none;
+    }
 	ul.sf-menu>li>a>.menu-arrow {
 		right: 20px;
 	}

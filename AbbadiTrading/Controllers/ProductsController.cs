@@ -17,12 +17,12 @@ namespace AbbadiTrading.Controllers
         }
         public ActionResult Bitumen()
         {
-            ViewBag.CurrentPage = "Product";
+            ViewBag.CurrentPage = "Products";
             return View();
         }
         public ActionResult Polymers()
         {
-            ViewBag.CurrentPage = "Product";
+            ViewBag.CurrentPage = "Products";
             return View();
         }
 
@@ -56,7 +56,7 @@ namespace AbbadiTrading.Controllers
 
         public ActionResult Dates()
         {
-            ViewBag.CurrentPage = "Product";
+            ViewBag.CurrentPage = "Products";
             return View();
         }
         public ActionResult MazafatiDates()
@@ -110,6 +110,36 @@ namespace AbbadiTrading.Controllers
             ViewBag.CurrentPage = "Product";
             return View();
         }
-
+        public ActionResult IceCream()
+        {
+            ViewBag.CurrentPage = "Product";
+            return View();
+        }
+        public ActionResult Honey()
+        {
+            ViewBag.CurrentPage = "Product";
+            return View();
+        }
+        public ActionResult ConfectioneryChocolateAndToffee()
+        {
+            ViewBag.CurrentPage = "Product";
+            return View();
+        }
+        public ActionResult DrinkAndBeverages()
+        {
+            ViewBag.CurrentPage = "Product";
+            return View();
+        }
+        public ActionResult FlourProducts()
+        {
+            ViewBag.CurrentPage = "Product";
+            return View();
+        }
+        public ActionResult TomatoPasteAndJuice()
+        {
+            ViewBag.CurrentPage = "Product";
+            return View();
+        }
+        
     }
 }

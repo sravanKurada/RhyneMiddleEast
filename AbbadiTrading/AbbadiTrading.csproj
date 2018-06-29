@@ -223,6 +223,11 @@
     <Content Include="Content\images\products\Bitumen\Penetration Bitumen\penetration_bitumen_process.jpg" />
     <Content Include="Content\images\products\CementAndClinker\CementAndClinker1.jpg" />
     <Content Include="Content\images\products\CementAndClinker\CementAndClinker2.jpg" />
+    <Content Include="Content\images\products\Confectionery\Confectionerychocolateandtoffeepage1.jpg" />
+    <Content Include="Content\images\products\Confectionery\Confectionerychocolateandtoffeepage2.jpg" />
+    <Content Include="Content\images\products\Confectionery\Confectionerychocolateandtoffeepage3.jpg" />
+    <Content Include="Content\images\products\Confectionery\Confectionerychocolateandtoffeepage4.jpg" />
+    <Content Include="Content\images\products\Confectionery\Confectionerychocolateandtoffeepage5.jpg" />
     <Content Include="Content\images\products\Dates\Kabkab.jpg" />
     <Content Include="Content\images\products\Dates\Mazafati.jpg" />
     <Content Include="Content\images\products\Dates\Piarom.jpg" />
@@ -230,17 +235,49 @@
     <Content Include="Content\images\products\Dates\Syrup.jpg" />
     <Content Include="Content\images\products\Dates\Syrup2.jpg" />
     <Content Include="Content\images\products\Dates\Zahedi.jpg" />
-    <Content Include="Content\images\products\FrozenShrimp\FrozenShrimp1.JPG" />
-    <Content Include="Content\images\products\FrozenShrimp\FrozenShrimp2.jpg" />
+    <Content Include="Content\images\products\Drinks\Drinkpage1.jpg" />
+    <Content Include="Content\images\products\Drinks\Drinkpage2.jpg" />
+    <Content Include="Content\images\products\Drinks\Drinkpage3.jpg" />
+    <Content Include="Content\images\products\FlourProducts\FlourProductpage1.jpg" />
+    <Content Include="Content\images\products\FlourProducts\FlourProductpage2.jpg" />
+    <Content Include="Content\images\products\FlourProducts\FlourProductpage3.jpg" />
+    <Content Include="Content\images\products\FlourProducts\FlourProductpage4.jpg" />
+    <Content Include="Content\images\products\FlourProducts\FlourProductpage5.jpg" />
+    <Content Include="Content\images\products\FlourProducts\FlourProductpage6.jpg" />
+    <Content Include="Content\images\products\Honey\Honeypage1.jpg" />
+    <Content Include="Content\images\products\Honey\Honeypage2.jpg" />
+    <Content Include="Content\images\products\Honey\Honeypage3.jpg" />
+    <Content Include="Content\images\products\FrozenShrimp\FrozenShrimpPage1.jpg" />
+    <Content Include="Content\images\products\FrozenShrimp\FrozenShrimpPage3.jpg" />
+    <Content Include="Content\images\products\FrozenShrimp\FrozenShrimpPage5.jpg" />
+    <Content Include="Content\images\products\FrozenShrimp\FrozenShrimpPage6.jpg" />
+    <Content Include="Content\images\products\FrozenShrimp\FrozenShrimpPage2.jpg" />
+    <Content Include="Content\images\products\FrozenShrimp\FrozenShrimpPage4.jpg" />
     <Content Include="Content\images\products\Glisonate.jpg" />
     <Content Include="Content\images\products\Gypsum\Gypsum1.jpg" />
     <Content Include="Content\images\products\Gypsum\Gypsum2.jpg" />
     <Content Include="Content\images\products\Gypsum\Gypsum3.jpg" />
+    <Content Include="Content\images\products\IceCream\IceCreampage1.jpg" />
+    <Content Include="Content\images\products\IceCream\IceCreampage2.jpg" />
     <Content Include="Content\images\products\Pistachio\Pistachio.JPG" />
+    <Content Include="Content\images\products\Pistachio\Pistachiopage1.jpg" />
+    <Content Include="Content\images\products\Pistachio\Pistachiopage10.jpg" />
+    <Content Include="Content\images\products\Pistachio\Pistachiopage11.gif" />
+    <Content Include="Content\images\products\Pistachio\Pistachiopage2.jpg" />
+    <Content Include="Content\images\products\Pistachio\Pistachiopage3.jpg" />
+    <Content Include="Content\images\products\Pistachio\Pistachiopage4.jpg" />
+    <Content Include="Content\images\products\Pistachio\Pistachiopage5.jpg" />
+    <Content Include="Content\images\products\Pistachio\Pistachiopage6.jpg" />
+    <Content Include="Content\images\products\Pistachio\Pistachiopage7.jpg" />
+    <Content Include="Content\images\products\Pistachio\Pistachiopage8.jpg" />
+    <Content Include="Content\images\products\Pistachio\Pistachiopage9.jpg" />
     <Content Include="Content\images\products\Polymer\pe1.jpg" />
     <Content Include="Content\images\products\Polymer\pe2.jpg" />
     <Content Include="Content\images\products\Polymer\pe3.jpg" />
     <Content Include="Content\images\products\Polymer\pe4.jpg" />
+    <Content Include="Content\images\products\TomatoPaste\TomatoPastepage1.jpg" />
+    <Content Include="Content\images\products\TomatoPaste\TomatoPastepage2.jpg" />
+    <Content Include="Content\images\products\TomatoPaste\TomatoPastepage3.jpg" />
     <Content Include="Content\images\rss_icon.png" />
     <Content Include="Content\images\slide1.jpg" />
     <Content Include="Content\images\slide2.jpg" />
@@ -277,6 +314,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Products\FoodProduct\" />
+    <Folder Include="Views\Products\NonFoodProduct\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -308,6 +347,12 @@
     <Content Include="Views\Products\FrozenShrimp.cshtml" />
     <Content Include="Views\Products\Gypsum.cshtml" />
     <Content Include="Views\Products\Pistachio.cshtml" />
+    <Content Include="Views\Products\IceCream.cshtml" />
+    <Content Include="Views\Products\Honey.cshtml" />
+    <Content Include="Views\Products\ConfectioneryChocolateAndToffee.cshtml" />
+    <Content Include="Views\Products\DrinkAndBeverages.cshtml" />
+    <Content Include="Views\Products\FlourProducts.cshtml" />
+    <Content Include="Views\Products\TomatoPasteAndJuice.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
