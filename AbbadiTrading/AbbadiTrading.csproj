@@ -244,6 +244,19 @@
     <Content Include="Content\images\products\FlourProducts\FlourProductpage4.jpg" />
     <Content Include="Content\images\products\FlourProducts\FlourProductpage5.jpg" />
     <Content Include="Content\images\products\FlourProducts\FlourProductpage6.jpg" />
+    <Content Include="Content\images\products\Home\MainPage1.jpg" />
+    <Content Include="Content\images\products\Home\MainPage10.jpg" />
+    <Content Include="Content\images\products\Home\MainPage11.jpg" />
+    <Content Include="Content\images\products\Home\MainPage12.jpg" />
+    <Content Include="Content\images\products\Home\MainPage13.jpg" />
+    <Content Include="Content\images\products\Home\MainPage2.jpg" />
+    <Content Include="Content\images\products\Home\MainPage3.jpg" />
+    <Content Include="Content\images\products\Home\MainPage4.jpg" />
+    <Content Include="Content\images\products\Home\MainPage5.jpg" />
+    <Content Include="Content\images\products\Home\MainPage6.jpg" />
+    <Content Include="Content\images\products\Home\MainPage7.jpg" />
+    <Content Include="Content\images\products\Home\MainPage8.jpg" />
+    <Content Include="Content\images\products\Home\MainPage9.jpg" />
     <Content Include="Content\images\products\Honey\Honeypage1.jpg" />
     <Content Include="Content\images\products\Honey\Honeypage2.jpg" />
     <Content Include="Content\images\products\Honey\Honeypage3.jpg" />
@@ -275,6 +288,10 @@
     <Content Include="Content\images\products\Polymer\pe2.jpg" />
     <Content Include="Content\images\products\Polymer\pe3.jpg" />
     <Content Include="Content\images\products\Polymer\pe4.jpg" />
+    <Content Include="Content\images\products\Raisins\Raisins3.jpg" />
+    <Content Include="Content\images\products\Raisins\Raisins1.jpg" />
+    <Content Include="Content\images\products\Raisins\Raisins2.jpg" />
+    <Content Include="Content\images\products\Raisins\Raisins4.jpg" />
     <Content Include="Content\images\products\TomatoPaste\TomatoPastepage1.jpg" />
     <Content Include="Content\images\products\TomatoPaste\TomatoPastepage2.jpg" />
     <Content Include="Content\images\products\TomatoPaste\TomatoPastepage3.jpg" />
@@ -344,7 +361,7 @@
     <Content Include="Views\Products\OxidizedBitumen.cshtml" />
     <Content Include="Views\Products\Gilsonite.cshtml" />
     <Content Include="Views\Products\CementAndClinker.cshtml" />
-    <Content Include="Views\Products\FrozenShrimp.cshtml" />
+    <None Include="Views\Products\SeaFood.cshtml" />
     <Content Include="Views\Products\Gypsum.cshtml" />
     <Content Include="Views\Products\Pistachio.cshtml" />
     <Content Include="Views\Products\IceCream.cshtml" />
@@ -353,6 +370,7 @@
     <Content Include="Views\Products\DrinkAndBeverages.cshtml" />
     <Content Include="Views\Products\FlourProducts.cshtml" />
     <Content Include="Views\Products\TomatoPasteAndJuice.cshtml" />
+    <Content Include="Views\Products\Raisins.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

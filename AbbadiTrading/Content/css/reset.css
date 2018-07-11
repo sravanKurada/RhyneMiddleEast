@@ -50,3 +50,14 @@ mark, rp, rt, ruby, summary, time {
 input {
 	outline: none;
 }
+.tileone {
+    background-image: url(images/products/Home/MainPage1.jpg) -1px -1px;
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+}
+img_inner.img_box {
+    padding: 10px 10px 11px 10px;
+    box-shadow: 3px 3px 2px #ddd;
+    background: #cccccc;
+    margin-bottom: 20px;
+}

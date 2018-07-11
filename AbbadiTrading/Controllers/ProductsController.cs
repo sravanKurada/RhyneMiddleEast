@@ -140,6 +140,16 @@ namespace AbbadiTrading.Controllers
             ViewBag.CurrentPage = "Product";
             return View();
         }
-        
+        public ActionResult Raisins()
+        {
+            ViewBag.CurrentPage = "Product";
+            return View();
+        }
+        public ActionResult SeaFood()
+        {
+            ViewBag.CurrentPage = "Product";
+            return View();
+        }
+
     }
 }
