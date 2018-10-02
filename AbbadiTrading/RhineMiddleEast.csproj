@@ -361,6 +361,10 @@
     <Content Include="Views\Products\OxidizedBitumen.cshtml" />
     <Content Include="Views\Products\Gilsonite.cshtml" />
     <Content Include="Views\Products\CementAndClinker.cshtml" />
+    <Content Include="Views\Products\PackingAndPackagingMaterial.cshtml" />
+    <Content Include="Views\Products\PaperTrading.cshtml" />
+    <Content Include="Views\Products\PetroChemicalTrading.cshtml" />
+    <Content Include="Views\Products\LubricantsAndGreaseTrading.cshtml" />
     <None Include="Views\Products\SeaFood.cshtml" />
     <Content Include="Views\Products\Gypsum.cshtml" />
     <Content Include="Views\Products\Pistachio.cshtml" />

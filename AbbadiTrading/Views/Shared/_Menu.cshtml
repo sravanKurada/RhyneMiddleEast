@@ -16,21 +16,14 @@
                         <li class="sub-menu @(ViewBag.CurrentPage=="Products"?"current":"")">
                             <a href="#">Food Products</a>
                             <ul>
-                                <li><a href="@Url.Action("ConfectioneryChocolateAndToffee","Products")">Confectionary, Chocolate and Toffee</a></li>
-                                <li><a href="@Url.Action("DrinkAndBeverages","Products")">Drink and Beverages </a></li>
-                                <li><a href="@Url.Action("FlourProducts","Products")">Flour Products </a></li>
-                                <li><a href="@Url.Action("Honey","Products")">Honey </a></li>
-                                <li><a href="@Url.Action("IceCream","Products")">Ice Cream </a></li>
                                 <li><a href="@Url.Action("SeaFood","Products")">Sea Food </a></li>
                                 <li class="@(ViewBag.CurrentPage=="Products"?"current":"")">
                                     <a  class="dried" href="#">Dried Fruits and Nuts </a>
                                     <ul>
                                         <li><a href="@Url.Action("Dates","Products")">Dates </a></li>
                                         <li><a href="@Url.Action("Pistachio","Products")">Pistachio </a></li>
-                                        <li><a href="@Url.Action("Raisins","Products")">Raisins </a></li>
                                     </ul>
-                                </li>                              
-                                <li><a href="@Url.Action("TomatoPasteAndJuice","Products")">Tomato Paste And Juice</a></li>
+                                </li>
 
                             </ul>
                         </li>
@@ -39,9 +32,12 @@
                             <ul>
                                 <li><a href="@Url.Action("Gilsonite","Products")">Gilsonite</a></li>
                                 <li><a href="@Url.Action("Bitumen","Products")">Bitumen</a></li>
-                                <li><a href="@Url.Action("Polymers","Products")">Polymers</a></li>
                                 <li><a href=@Url.Action("Gypsum","Products")>Gypsum </a></li>
                                 <li><a href=@Url.Action("CementAndClinker","Products")>Cement And Clinker </a></li>
+                                <li><a href=@Url.Action("LubricantsAndGreaseTrading","Products")>Lubricants And Grease Trading </a></li>
+                                <li><a href=@Url.Action("PetroChemicalTrading","Products")>Petro Chemical Trading </a></li>
+                                <li><a href=@Url.Action("PaperTrading","Products")>Paper Trading </a></li>
+                                <li><a href=@Url.Action("PackingAndPackagingMaterial","Products")>Packing And Packaging Material </a></li>
                             </ul>
                         </li>
                     </ul>                      

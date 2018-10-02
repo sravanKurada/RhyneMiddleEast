@@ -150,6 +150,25 @@ namespace AbbadiTrading.Controllers
             ViewBag.CurrentPage = "Product";
             return View();
         }
-
+        public ActionResult LubricantsAndGreaseTrading()
+        {
+            ViewBag.CurrentPage = "Products";
+            return View();
+        }
+        public ActionResult PetroChemicalTrading()
+        {
+            ViewBag.CurrentPage = "Products";
+            return View();
+        }
+        public ActionResult PaperTrading()
+        {
+            ViewBag.CurrentPage = "Products";
+            return View();
+        }
+        public ActionResult PackingAndPackagingMaterial()
+        {
+            ViewBag.CurrentPage = "Products";
+            return View();
+        }
     }
 }
