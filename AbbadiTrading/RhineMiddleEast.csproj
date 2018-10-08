@@ -365,6 +365,7 @@
     <Content Include="Views\Products\PaperTrading.cshtml" />
     <Content Include="Views\Products\PetroChemicalTrading.cshtml" />
     <Content Include="Views\Products\LubricantsAndGreaseTrading.cshtml" />
+    <Content Include="Views\Home\ContactUs.cshtml" />
     <None Include="Views\Products\SeaFood.cshtml" />
     <Content Include="Views\Products\Gypsum.cshtml" />
     <Content Include="Views\Products\Pistachio.cshtml" />

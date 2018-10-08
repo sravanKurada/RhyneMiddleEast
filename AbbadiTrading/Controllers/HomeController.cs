@@ -21,5 +21,10 @@ namespace AbbadiTrading.Controllers
             ViewBag.CurrentPage = "AboutUs";
             return View();
         }
+        public ActionResult ContactUs()
+        {
+            ViewBag.CurrentPage = "ContactUS";
+            return View();
+        }
     }
 }
