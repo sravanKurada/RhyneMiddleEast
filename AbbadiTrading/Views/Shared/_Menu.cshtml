@@ -3,11 +3,11 @@
         <nav class="">
             <ul class="sf-menu">
                 <li class="@(ViewBag.CurrentPage=="Home"?"current":"")">
-                <a href="@Url.Action("Index","Home")">Home</a>
+                    <a href="@Url.Action("Index","Home")">Home</a>
                 </li>
 
-                <li  class="@(ViewBag.CurrentPage=="AboutUs"?"current":"")">
-                <a href="@Url.Action("AboutUs","Home")">About Us </a>
+                <li class="@(ViewBag.CurrentPage=="AboutUs"?"current":"")">
+                    <a href="@Url.Action("AboutUs","Home")">About Us </a>
                 </li>
 
                 <li class="@(ViewBag.CurrentPage=="Product"?"current":"")">
@@ -16,9 +16,9 @@
                         <li class="sub-menu @(ViewBag.CurrentPage=="Products"?"current":"")">
                             <a href="#">Food Products</a>
                             <ul>
-                                <li><a href="@Url.Action("SeaFood","Products")">Sea Food </a></li>
+                                <li><a href="@Url.Action("FrozenShrimp","Products")">Frozen Shrimps </a></li>
                                 <li class="@(ViewBag.CurrentPage=="Products"?"current":"")">
-                                    <a  class="dried" href="#">Dried Fruits and Nuts </a>
+                                    <a class="dried" href="#">Dried Fruits and Nuts </a>
                                     <ul>
                                         <li><a href="@Url.Action("Dates","Products")">Dates </a></li>
                                         <li><a href="@Url.Action("Pistachio","Products")">Pistachio </a></li>
@@ -40,9 +40,11 @@
                                 <li><a href=@Url.Action("PackingAndPackagingMaterial","Products")>Packing And Packaging Material </a></li>
                             </ul>
                         </li>
-                    </ul>                      
-                </li>	          
-                <li><a href="#">Contact us</a></li>           
+                    </ul>
+                </li>
+                <li class="@(ViewBag.CurrentPage=="ContactUs"?"current":"")">
+                    <a href="@Url.Action("ContactUs","Home")">Contact Us </a>
+                </li>
             </ul>
         </nav>
     </div>
