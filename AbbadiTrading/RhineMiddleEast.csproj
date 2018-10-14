@@ -366,9 +366,8 @@
     <Content Include="Views\Products\PetroChemicalTrading.cshtml" />
     <Content Include="Views\Products\LubricantsAndGreaseTrading.cshtml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
-    <None Include="Views\Products\SeaFood.cshtml" />
     <Content Include="Views\Home\ContactUs.cshtml" />
-    <None Include="Views\Products\FrozenShrimp.cshtml" />
+    <Content Include="Views\Products\FrozenShrimp.cshtml" />
     <Content Include="Views\Products\Gypsum.cshtml" />
     <Content Include="Views\Products\Pistachio.cshtml" />
     <Content Include="Views\Products\IceCream.cshtml" />
