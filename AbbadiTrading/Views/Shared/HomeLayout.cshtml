@@ -30,8 +30,8 @@
     <!--[if (gt IE 9)|!(IE)]><!-->
     <script type="text/javascript" src="@Url.Content("~/Content/js/jquery.mobile.customized.min.js")"></script>
     <!-- #FAVICONS -->
-    <link rel="shortcut icon" href="~/Content/images/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="~/Content/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="~/Content/images/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="~/Content/images/favicon.ico" type="image/x-icon"/>
     <!--<![endif]-->
     <script>
         $(document).ready(function () {
@@ -64,90 +64,93 @@
     <![endif]-->
 </head>
 <body class="page1">
-<!-- Header -->
-<header>
-  <div class="header_top">
-    <div class="container_16">
-      <div class="grid_16">
-	      <h1><a href="#"><img src="@Url.Content("~/Content/images/logo.png")" alt="Motheme Your prosperity is our goal!"></a></h1>
-	      <div class="contacts">
-	      	
-	      	
-	      	<div class="clear"></div>
-            <div class="phone1"><span>Phone:</span>+97143927774</div>
-	      </div>
-      </div>
-    </div>
-  </div>
-  <div class="menu_border">
-  	<div class="menu_bg">
-		@Html.Partial("_Menu")
-   </div>
-   </div>
-   
-</header>
-    <!--Content--> 
+    <!-- Header -->
+    <header>
+        <div class="header_top">
+            <div class="container_16">
+                <div class="grid_16">
+                    <h1><a href="#"><img src="@Url.Content("~/Content/images/logo.png")" alt="Motheme Your prosperity is our goal!"></a></h1>
+                    <div class="contacts">
+
+
+                        <div class="clear"></div>
+                        <div class="phone1"><span>Phone:</span>+97143927774</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu_border">
+            <div class="menu_bg">
+                @Html.Partial("_Menu")
+            </div>
+        </div>
+
+    </header>
+    <!--Content-->
     <div class="content">
-    @RenderBody()
+        @RenderBody()
     </div>
     <div class="page1_bot">
-		
-		<div class="bot">
-	    	<div>
-	        	<div class="container_16">
-	        		  <div class="grid_4">
-		                 <h4>About Us</h4>
-                         <p>
-                             Rhine middle east LLC. Was formed in 2018 and is in jabal ali free zone.
-                             We intend to use this platform to trade globally and offer our buyers various
-                             commodities like petrochemicals, grease, frozen fish and sea food,
-                             Dry Fruits and Nuts, gypsum, paper trading, Gilsonite and Bitumen.
-                         </p>
+
+        <div class="bot">
+            <div>
+                <div class="container_16">
+                    <div class="grid_4">
+                        <h4>About Us</h4>
+                        <p>
+                            Rhine middle east LLC. Was formed in 2018 and is in jabal ali free zone.
+                            We intend to use this platform to trade globally and offer our buyers various
+                            commodities like petrochemicals, grease, frozen fish and sea food,
+                            Dry Fruits and Nuts, gypsum, paper trading, Gilsonite and Bitumen.
+                        </p>
                         <a href="@Url.Action("AboutUs","Home")">Read More</a>
-		            </div>
-		            @*<div class="grid_4">
-		                <h4>elsewhere</h4>
-		                <div class="social">
-	                    	
-		                    <div>
-		                    	
-		                        <a href="#"><img src="@Url.Content("~/Content/images/fb_icon.png")" alt=""> Facebook</a>
-		                        <div class="clear"></div>
-		                        <div>
-		                        </div>
-		                    	
-		                        <a href="#"> <img src="@Url.Content("~/Content/images/twitter_icon.png")" alt="">Twitter</a>
-		                        <div class="clear"></div>
-		                    </div>
-		                </div>
-		            </div>*@
-		          
+                    </div>
+                    @*<div class="grid_4">
+                            <h4>elsewhere</h4>
+                            <div class="social">
+
+                                <div>
+
+                                    <a href="#"><img src="@Url.Content("~/Content/images/fb_icon.png")" alt=""> Facebook</a>
+                                    <div class="clear"></div>
+                                    <div>
+                                    </div>
+
+                                    <a href="#"> <img src="@Url.Content("~/Content/images/twitter_icon.png")" alt="">Twitter</a>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>*@
+
                     <div class="grid_4"></div>
-	        		<div class="grid_4">
-	                	<h4>Contacts</h4>
-	                    <div class="phone1"><span>+97143927774</span>
-                                            <a href="mailto:info@rhineme.com">info@rhineME.com</a>
-	                    </div>
-	                    <address>
-                        License NO. 171240, Registration NO. 204200, Jafza One, Office: FZJOBB 1609
-                        <br/>Dubai , U.A.E.
+                    <div class="grid_4">
+                        <h4>Contacts</h4>
+                        <div class="phone1">
+                            <span>+97143927774</span>
+                            <a href="mailto:info@rhineme.com">info@rhineME.com</a>
+                        </div>
+                        <address>
+                            License NO. 171240, Registration NO. 204200, Jafza One, Office: FZJOBB 1609
+                            <br />Dubai , U.A.E.
                         </address>
-	                </div>
-	        		<div class="clear"></div>
-	        	</div>
-	        </div>
-	    </div>
-	</div>
-    <!--Footer-->
-<footer>
-  <div class="container_16">
-    <div class="wrapper">
-      <div class="grid_16 copy">  <span>Rhine Middle East  © @DateTime.Now.Year</span> <!--{%FOOTER_LINK} --> 
-      </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</footer>
-<!-- Footer end-->
+    <!--Footer-->
+    <footer>
+        <div class="container_16">
+            <div class="wrapper">
+                <div class="grid_16 copy">
+                    <span>Rhine Middle East  © @DateTime.Now.Year</span> <!--{%FOOTER_LINK} -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end-->
+    @RenderSection("Scripts", false)
 </body>
 </html>
 	

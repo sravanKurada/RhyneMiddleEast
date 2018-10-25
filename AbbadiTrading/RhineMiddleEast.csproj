@@ -111,16 +111,30 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactUsModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="Content\images\products\Carpets\carpet1.jpg" />
+    <Content Include="Content\images\products\Carpets\carpet10.jpg" />
+    <Content Include="Content\images\products\Carpets\carpet11.jpg" />
+    <Content Include="Content\images\products\Carpets\carpet2.jpg" />
+    <Content Include="Content\images\products\Carpets\carpet3.jpg" />
+    <Content Include="Content\images\products\Carpets\carpet4.jpg" />
+    <Content Include="Content\images\products\Carpets\carpet5.jpg" />
+    <Content Include="Content\images\products\Carpets\carpet6.jpg" />
+    <Content Include="Content\images\products\Carpets\carpet7.jpg" />
+    <Content Include="Content\images\products\Carpets\carpet8.jpg" />
+    <Content Include="Content\images\products\Carpets\carpet9.jpg" />
     <Content Include="Content\css\camera.css" />
+    <Content Include="Content\css\contactus.css" />
     <Content Include="Content\css\form.css" />
     <Content Include="Content\css\grid.css" />
     <Content Include="Content\css\ie.css" />
+    <Content Include="Content\css\imagegrid.css" />
     <Content Include="Content\css\reset.css" />
     <Content Include="Content\css\slider.css" />
     <Content Include="Content\css\style.css" />
@@ -137,6 +151,7 @@
     <Content Include="Content\images\contacts_separator.png" />
     <Content Include="Content\images\favicon.ico" />
     <Content Include="Content\images\fb_icon.png" />
+    <Content Include="Content\images\flexitanks.jpg" />
     <Content Include="Content\images\footer_logo.png" />
     <Content Include="Content\images\FrozenShrimp.jpg" />
     <Content Include="Content\images\Gypsum.jpg" />
@@ -296,6 +311,7 @@
     <Content Include="Content\images\products\TomatoPaste\TomatoPastepage2.jpg" />
     <Content Include="Content\images\products\TomatoPaste\TomatoPastepage3.jpg" />
     <Content Include="Content\images\rss_icon.png" />
+    <Content Include="Content\images\coldstorage.jpg" />
     <Content Include="Content\images\slide1.jpg" />
     <Content Include="Content\images\slide2.jpg" />
     <Content Include="Content\images\slide3.jpg" />
@@ -305,6 +321,7 @@
     <Content Include="Content\images\totop.png" />
     <Content Include="Content\images\twitter_icon.png" />
     <Content Include="Content\js\camera.js" />
+    <Content Include="Content\js\emailsender.php" />
     <Content Include="Content\js\forms.js" />
     <Content Include="Content\js\html5.js" />
     <Content Include="Content\js\jquery.easing.1.3.js" />
@@ -330,7 +347,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Products\FoodProduct\" />
     <Folder Include="Views\Products\NonFoodProduct\" />
   </ItemGroup>
@@ -344,6 +360,7 @@
     <Content Include="Views\Shared\HomeLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\HtmlTemplates\ContactUsEmailTemplate.htm" />
     <None Include="Properties\PublishProfiles\AbbadiTrading.pubxml" />
     <Content Include="Views\Home\AboutUs.cshtml" />
     <Content Include="Views\Shared\_Menu.cshtml" />
@@ -377,6 +394,9 @@
     <Content Include="Views\Products\FlourProducts.cshtml" />
     <Content Include="Views\Products\TomatoPasteAndJuice.cshtml" />
     <Content Include="Views\Products\Raisins.cshtml" />
+    <Content Include="Views\Home\ErrorMessage.cshtml" />
+    <Content Include="Views\Home\Success.cshtml" />
+    <Content Include="Views\Products\Carpets.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

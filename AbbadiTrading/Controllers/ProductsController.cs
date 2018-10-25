@@ -170,5 +170,10 @@ namespace AbbadiTrading.Controllers
             ViewBag.CurrentPage = "Products";
             return View();
         }
+        public ActionResult Carpets()
+        {
+            ViewBag.CurrentPage = "Products";
+            return View();
+        }
     }
 }

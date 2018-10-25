@@ -307,7 +307,7 @@ margin-bottom: 10px;
 }
 
 .img_box img {
-	margin-bottom: 11px;	
+    /*margin-bottom: 11px;*/
 }
 
 .img_box a {
@@ -327,9 +327,11 @@ margin-bottom: 10px;
 	margin-bottom: 17px;
 }
 
-.img_inner>img, .img_box img,.img_box_Header img  {
-	max-width: 100%;
-}
+    .img_inner > img, .img_box img, .img_box_Header img {
+        max-width: 100%;
+        width: fit-content;
+        height: 130px;
+    }
 
 .clients>div  {
 	margin-bottom: 30px;	

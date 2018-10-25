@@ -1,30 +1,54 @@
-﻿@model dynamic
-
+﻿@model AbbadiTrading.Models.ContactUsModel
 @{
-    ViewBag.Title = "Contact Us";
+    ViewBag.Title = "ContactUs";
     Layout = "~/Views/Shared/HomeLayout.cshtml";
 }
+<h2>Contact Us</h2>
+<link rel="stylesheet" type="text/css" media="screen" href="@Url.Content("~/Content/css/contactus.css")" />
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
 
-<div class="container_16">
-    <div class="wrapper">
-        <div class="grid_16">
-            <h2>
-                Rhine Middle East LLC.
-                <span></span>
-            </h2>
+    <fieldset>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
         </div>
-    </div>
-    <div class="grid_12">
-        <h3>Contact Us</h3>
-        <div class="phone">
-            <span>+97143927774</span>
-            <div class="clearfix"></div>
-            <a href="mailto:info@rhineme.com">info@rhineME.com</a>
+        <div class="editor-field">
+
+            @Html.TextBoxFor(model => model.Name,  new { @type = "text" })
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Email)
+        </div>
+
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.Email)
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Message)
+        </div>
+
+        <div class="editor-field ">
+            @Html.TextAreaFor(model => model.Message)
+            @Html.ValidationMessageFor(model => model.Message)
         </div>
         <div class="clearfix"></div>
         <p>
-            License NO. 171240, Registration NO. 204200, Jafza One, Office: FZJOBB 1609
-            <br />Dubai , U.A.E.
+            <input type="submit" value="Submit"/>
         </p>
-    </div>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to Home", "Index")
 </div>
+
+@section Scripts {
+    @*@Scripts.Render("~/bundles/jqueryval")*@
+}

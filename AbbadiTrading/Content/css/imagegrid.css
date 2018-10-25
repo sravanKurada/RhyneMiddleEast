@@ -1,0 +1,13 @@
+﻿body {
+    padding-top: 70px;
+}
+
+.row .flex {
+    display: inline-flex;
+    width: 100%;
+}
+
+.img-box img {
+    height: 250px;
+    width: 100%;
+}
