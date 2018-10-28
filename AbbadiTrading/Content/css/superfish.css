@@ -170,6 +170,7 @@ ul.sf-menu>li.current>a,  ul.sf-menu>li>a:hover, ul.sf-menu>li.sfHover>a {
     }
 .sf-menu>li>ul>li:first-child a {
 	padding-top: 0 !important;
+    font-size:12px;
 }
 .sf-menu > li > ul > li:nth-child(2n+1) a {
         padding-top: 0 !important;
@@ -212,7 +213,7 @@ ul.sf-menu>li.current>a,  ul.sf-menu>li>a:hover, ul.sf-menu>li.sfHover>a {
         top: 0px !important;
         text-align: center;
         background: url(../images/subsub_bg.png) 0 0 repeat-x #838383;
-        padding: 15px 20px 0px 22px;
+        padding: 0px 0px 0px 0px;
         box-shadow: 0px 0px 2px #999;
     }
 
@@ -255,8 +256,8 @@ ul.sf-menu>li.current>a,  ul.sf-menu>li>a:hover, ul.sf-menu>li.sfHover>a {
 	display: block;
 	text-shadow: none;	
 	padding: 0 !important;
-	padding-bottom: 11px !important;
-	padding-top: 16px !important;
+	padding-bottom: 0px !important;
+	padding-top: 0px !important;
 }
 
 .sf-menu>li>ul>li>ul>li>a>span {

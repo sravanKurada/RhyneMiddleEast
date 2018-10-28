@@ -30,6 +30,7 @@
                         <li class="@(ViewBag.CurrentPage=="Products"?"current":"")">
                             <a class="nonfood" href="#">Non Food Products </a>
                             <ul>
+                                <li><a href=@Url.Action("Carpets","Products")>Carpets </a></li>
                                 <li><a href="@Url.Action("Gilsonite","Products")">Gilsonite</a></li>
                                 <li><a href="@Url.Action("Bitumen","Products")">Bitumen</a></li>
                                 <li><a href=@Url.Action("Gypsum","Products")>Gypsum </a></li>
@@ -38,7 +39,6 @@
                                 <li><a href=@Url.Action("PetroChemicalTrading","Products")>Petro Chemical Trading </a></li>
                                 <li><a href=@Url.Action("PaperTrading","Products")>Paper Trading </a></li>
                                 <li><a href=@Url.Action("PackingAndPackagingMaterial","Products")>Packing And Packaging Material </a></li>
-                                <li><a href=@Url.Action("Carpets","Products")>Carpets </a></li>
                             </ul>
                         </li>
                     </ul>
