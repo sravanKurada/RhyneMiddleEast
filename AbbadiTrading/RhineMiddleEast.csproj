@@ -149,7 +149,6 @@
     <Content Include="Content\images\CementAndClinker1.jpg" />
     <Content Include="Content\images\CementAndClinker2.jpg" />
     <Content Include="Content\images\contacts_separator.png" />
-    <Content Include="Content\images\favicon.ico" />
     <Content Include="Content\images\fb_icon.png" />
     <Content Include="Content\images\flexitanks.jpg" />
     <Content Include="Content\images\footer_logo.png" />
@@ -335,6 +334,7 @@
     <Content Include="Content\js\PIE.php" />
     <Content Include="Content\js\script.js" />
     <Content Include="Content\js\superfish.js" />
+    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
